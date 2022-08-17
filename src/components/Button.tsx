@@ -14,7 +14,7 @@ export function Button({ children, size = 'medium', ...props }: Props) {
         style.paddingBottom = '0.5rem';
     } else if(size === 'big') {
         style.paddingTop = '1.5rem';
-        style.paddingBottom = '1.5rem';
+        style.paddingBottom = '1.5rem';     
     } else if (size === 'medium') {
         style.paddingTop = '1rem';
         style.paddingBottom = '1rem';
