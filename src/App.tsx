@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import { Button } from "./components/Button";
-import { Main } from "./components/Main";
+import { Menu } from "./components/Main";
 
 function App() {
 
@@ -12,7 +11,7 @@ function App() {
 
       {hungry ? <h1>I'm hungry</h1> : <h1>I'm not hungry</h1>}
 
-      <Main setHungry={setHungry} />
+      <Menu setHungry={setHungry} />
     </div>
   );
 }

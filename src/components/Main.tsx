@@ -1,30 +1,35 @@
 import { Button } from "./Button";
 
-export function Main({ setHungry }: any) {
+export function Menu({ setHungry }: any) {
   return (
     <>
-      <Button
+    <menu className="menu">
+     <Button
         onClick={() => {
-          setHungry(false);
+        setHungry(false);
         }}
-      >
+        size="small"
+        >
         Eat
-      </Button>
-      <Button
+    </Button>
+    <Button
         onClick={() => {
-          setHungry(true);
+        setHungry(true);
         }}
-      >
-        Workout
-      </Button>
 
-      <Button
+        >
+        Workout
+    </Button>
+
+    <Button
         onClick={() => {
-          setHungry(true);
+        setHungry(true);
         }}
-      >
+        size="big"
+        >
         Sleep
-      </Button>
+    </Button>
+    </menu>
     </>
   );
 }

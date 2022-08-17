@@ -1,10 +1,21 @@
-.App {
+
+.App{
   height: 100vh;
   display: grid;
   place-content: center;
 }
+
 .button{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  background-color: #646cff;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1.25rem;
+  padding: 0.5cm 1em;
+  cursor: pointer;
 }
 
+/* .menu{
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+} */
